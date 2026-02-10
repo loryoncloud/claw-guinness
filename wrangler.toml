@@ -1,3 +1,8 @@
-name = "claw-guinness"
+name = "clawguinness"
 compatibility_date = "2024-01-01"
-pages_build_output_dir = "out"
+pages_build_output_dir = ".vercel/output/static"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "claw-guinness-db"
+database_id = "ae3cea65-23f5-4dc4-bef8-eb9285a88418"
